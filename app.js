@@ -1,6 +1,6 @@
 const api ={
     key:"6103b2255a40d73f52ee9cc17ddaa847",
-    base:"http://api.openweathermap.org/data/2.5/"
+    base:"https://api.openweathermap.org/data/2.5/"
 }
 
 const searchbox =document.querySelector('.search-box');
@@ -54,7 +54,7 @@ function displayResults(weather){
     mwth.innerText = `${weather.weather[0].main}`
     
     let img = weather.weather[0].icon;
-    let imgSrc = "http://openweathermap.org/img/wn/"+img+"@2x.png";
+    let imgSrc = "https://openweathermap.org/img/wn/"+img+"@2x.png";
     console.log(img);
     console.log(imgSrc);    
     document.getElementById('iconn').src =imgSrc;
