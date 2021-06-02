@@ -22,7 +22,7 @@ body {
 }
 .box {
   padding: 5%;
-  background-color: rgba(175, 175, 175, 0.3);
+  background-color: rgba(175, 175, 175, 0.75);
   border-radius: 10px;
 }
 header {
