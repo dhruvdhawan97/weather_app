@@ -34,10 +34,10 @@ function displayResults(weather){
     let date = document.querySelector('.location .date');
     date.innerText= dateBuilder(now);
 
-    let time= document.querySelector('.location .your-time');
-    let hs = now.getHours();    
-    let ms = now.getMinutes();
-    time.innerText = hs +" : "+ ms +" Time in 24 hours (your time)";
+    // let time= document.querySelector('.location .your-time');
+    // let hs = now.getHours();    
+    // let ms = now.getMinutes();
+    // time.innerText = hs +" : "+ ms +" Time in 24 hours (your time)";
 
     let temp = document.querySelector('.current .temp');
     temp.innerText = `${Math.round(weather.main.temp)}°C`;
